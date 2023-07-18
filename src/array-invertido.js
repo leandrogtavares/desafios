@@ -3,16 +3,21 @@
 // e retornar ['c','/', 'b', '/', 'a']
 
 function inverterArrayPuro(array, separador) {
+    const arrayInvertido = []
+    for (let i = array.length - 1; i >= 0; i--) {
+      arrayInvertido.push(array[i])
+    }
+
+    return arrayInvertido
+}
+
+
+function inverterArrayComFuncoesJs(array, separador = null) {
     //digite seu código aqui
 }
 
 
-function inverterArrayComFuncoesJs(array, separado) {
-    //digite seu código aqui
-}
 
-
- 
 function assertArrayEqual(arrayA, arrayB) {
     if (!Array.isArray(arrayA)) {
         throw new Error(`Assertion failed. Array A is not an array`)
@@ -34,7 +39,10 @@ function assertArrayEqual(arrayA, arrayB) {
 }
 
 
-assertArrayEqual(inverterArrayPuro(['a', 'b', 'c'], '/'), ['c', '/', 'b', '/', 'a'])
-assertArrayEqual(inverterArrayComFuncoesJs(['a', 'b', 'c'], '/'), ['c', '/', 'b', '/', 'a'])
+assertArrayEqual(inverterArrayPuro(['a', 'b', 'c'], '/'), ['c', 'b', 'a'])
+// assertArrayEqual(inverterArrayPuro(['a', 'b', 'c'], '/'), ['c', '/', 'b', '/', 'a'])
+// assertArrayEqual(inverterArrayComFuncoesJs(['a', 'b', 'c'], '/'), ['c', '/', 'b', '/', 'a'])
+
+console.log(inverterArrayPuro(['a', 'b', 'c']))
 
 console.log('All tests passed!')
