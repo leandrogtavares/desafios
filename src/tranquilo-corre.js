@@ -16,4 +16,4 @@ function imprimiAvisos(animais) {
 }
 
 
-imprimiAvisos()
+imprimiAvisos(animais)
