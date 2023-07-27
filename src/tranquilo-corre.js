@@ -4,15 +4,15 @@
 //3) Tranquilo Corre => quanto for um animal que come ambos
 
 const animais = [
-    { nome: 'Leão', comida: 'carne' },
-    { nome: 'Elefante', comida: 'plantas' },
-    { nome: 'Girafa', comida: 'plantas' },
-    { nome: 'Urso', comida: 'plantascarne' },
-    { nome: 'Porco', comida: 'plantascarne' },
+    { nome: 'Leão', comida: ['carne'] },
+    { nome: 'Elefante', comida: ['plantas'] },
+    { nome: 'Girafa', comida: ['plantas'] },
+    { nome: 'Urso', comida: ['plantas', 'carne'] },
+    { nome: 'Porco', comida: ['plantas', 'carne'] },
 ]
 
 function imprimiAvisos(animais) {
-    //digite seu código aqui
+    
 }
 
 
