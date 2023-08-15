@@ -13,8 +13,8 @@ const person = {
     age: 30,
     city: "São Paulo",
     occupation: "Engenheiro",
-  }
-  
+}
+
 
 // Exercício - 4: Utilize um loop for funcional para percorrer o array de números e calcular a soma de todos os elementos.
 const numbers = [10, 5, 8, 2, 3]
